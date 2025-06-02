@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Start: From Zero to AI Hero | Link Ur Codes</title>
+<script src="https://cdn.tailwindcss.com/3.4.1"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#10B981',
+                        dark: '#1F2937',
+                        light: '#F9FAFB',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+
+    <style>
+
+         
+        .hero-gradient {
+            background: linear-gradient(135deg, #4F46E5 0%, #10B981 100%);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .glow {
+            box-shadow: 0 0 15px rgba(79, 70, 229, 0.5);
+        }
+    </style>
+
+    </head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4 px-2">
+                        <span class="font-semibold text-gray-900 text-2xl">AI<span class="text-blue-600">Intern</span></span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#about" class="py-4 px-2 text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#curriculum" class="py-4 px-2 text-gray-700 hover:text-blue-600">Curriculum</a>
+                    <a href="#instructors" class="py-4 px-2 text-gray-700 hover:text-blue-600">Instructors</a>
+                    <a href="#pricing" class="py-4 px-2 text-gray-700 hover:text-blue-600">Pricing</a>
+                    <a href="#register" class="py-4 px-2 text-white bg-blue-600 rounded hover:bg-blue-700 transition duration-300">Register Now</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-700" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-500 to-indigo-700 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">5-Day AI Internship</h1>
+            <h2 class="text-2xl md:text-4xl font-semibold mb-8">From <span class="text-yellow-300">Zero</span> to <span class="text-yellow-300">Hero</span> in AI</h2>
+            <p class="text-xl mb-12 max-w-3xl mx-auto">Transform from AI beginner to confident practitioner in just 5 intensive days. Hands-on learning with real-world projects.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#register" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition duration-300">Enroll Now</a>
+                <a href="#curriculum" class="border-2 border-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-blue-600 transition duration-300">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">5</div>
+                    <h3 class="text-xl font-semibold mb-2">Intensive Days</h3>
+                    <p class="text-gray-600">Focused, immersive learning experience</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">15+</div>
+                    <h3 class="text-xl font-semibold mb-2">Hands-on Projects</h3>
+                    <p class="text-gray-600">Practical applications of AI concepts</p>
+                </div>
+                <div class="p-6 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">100%</div>
+                    <h3 class="text-xl font-semibold mb-2">Career Focused</h3>
+                    <p class="text-gray-600">Skills that employers actually want</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why This AI Internship?</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="AI Learning" class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Accelerate Your AI Journey</h3>
+                    <p class="text-gray-600 mb-4">Our intensive 5-day internship is designed to take you from AI novice to capable practitioner through hands-on projects and expert guidance.</p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check-circle"></i></span>
+                            <span class="text-gray-700">No prior experience required - we start from the basics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check-circle"></i></span>
+                            <span class="text-gray-700">Learn by doing with real-world projects</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check-circle"></i></span>
+                            <span class="text-gray-700">Personalized mentorship from AI experts</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check-circle"></i></span>
+                            <span class="text-gray-700">Build a portfolio to showcase your new skills</span>
+                        </li>
+                    </ul>
+                    <a href="#register" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300">Start Your Journey</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">5-Day Intensive Curriculum</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Each day builds on the previous one to take you from fundamentals to practical applications</p>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="space-y-8 max-w-4xl mx-auto">
+                <!-- Day 1 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-600 text-white px-6 py-4">
+                        <h3 class="text-xl font-bold">Day 1: AI Fundamentals</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Introduction to AI and Machine Learning</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Setting up your AI development environment</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Your first AI model: Linear Regression</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Project: Predicting housing prices</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Day 2 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-600 text-white px-6 py-4">
+                        <h3 class="text-xl font-bold">Day 2: Core Machine Learning</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Classification algorithms (Logistic Regression, Decision Trees)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Model evaluation and validation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Feature engineering techniques</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Project: Customer churn prediction</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Day 3 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-600 text-white px-6 py-4">
+                        <h3 class="text-xl font-bold">Day 3: Deep Learning Basics</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Introduction to Neural Networks</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Building your first neural network</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Understanding CNNs for image recognition</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Project: Handwritten digit classification</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Day 4 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-600 text-white px-6 py-4">
+                        <h3 class="text-xl font-bold">Day 4: Advanced Applications</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Natural Language Processing (NLP) basics</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Sentiment analysis with AI</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Introduction to transformers and LLMs</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Project: Building a chatbot</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Day 5 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300">
+                    <div class="bg-blue-600 text-white px-6 py-4">
+                        <h3 class="text-xl font-bold">Day 5: Real-world Deployment</h3>
+                    </div>
+                    <div class="p-6">
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Model deployment strategies</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Creating AI-powered web applications</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Ethical considerations in AI</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-blue-500 mr-2 mt-1"><i class="fas fa-circle"></i></span>
+                                <span>Final Project: End-to-end AI solution</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Learn From AI Experts</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Our instructors have real-world experience building AI solutions for top companies</p>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Instructor 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Sarah Chen" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-blue-100">
+                    <h3 class="text-xl font-bold text-gray-800 mb-1">Dr. Sarah Chen</h3>
+                    <p class="text-blue-600 mb-4">AI Research Lead</p>
+                    <p class="text-gray-600 mb-4">Former Google Brain researcher with 10+ years in deep learning applications.</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Instructor 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Raj Patel" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-blue-100">
+                    <h3 class="text-xl font-bold text-gray-800 mb-1">Raj Patel</h3>
+                    <p class="text-blue-600 mb-4">ML Engineering Director</p>
+                    <p class="text-gray-600 mb-4">Built recommendation systems for Netflix and Spotify.</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Instructor 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 text-center">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Dr. Elena Rodriguez" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover border-4 border-blue-100">
+                    <h3 class="text-xl font-bold text-gray-800 mb-1">Dr. Elena Rodriguez</h3>
+                    <p class="text-blue-600 mb-4">NLP Specialist</p>
+                    <p class="text-gray-600 mb-4">Developed language models used by millions daily.</p>
+                    <div class="flex justify-center space-x-3">
+                        <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-500 hover:text-blue-700"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What Our Alumni Say</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Priya K." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">Priya K.</h4>
+                            <p class="text-gray-600 text-sm">Data Analyst → AI Engineer</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"This internship transformed my career. In just 5 days, I gained practical skills that took me months to learn on my own. The hands-on projects were exactly what I needed to transition into an AI role."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="James L." class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold">James L.</h4>
+                            <p class="text-gray-600 text-sm">Recent Graduate</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"The condensed format forced me to focus and learn quickly. I built a portfolio of projects that helped me land my first job in AI. The mentorship was invaluable."</p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Pricing Options</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Choose the plan that works for you</p>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Basic Plan -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Self-Paced</h3>
+                    <p class="text-gray-600 mb-6">Learn at your own speed</p>
+                    <div class="mb-6">
+                        <span class="text-4xl font-bold text-gray-800">$99</span>
+                        <span class="text-gray-600">/one-time</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Access to all course materials</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Video recordings</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Community forum access</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-gray-400 mr-2 mt-1"><i class="fas fa-times"></i></span>
+                            <span class="text-gray-400">Live sessions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-gray-400 mr-2 mt-1"><i class="fas fa-times"></i></span>
+                            <span class="text-gray-400">1-on-1 mentorship</span>
+                        </li>
+                    </ul>
+                    <a href="#register" class="block text-center bg-gray-100 text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition duration-300">Get Started</a>
+                </div>
+                
+                <!-- Popular Plan -->
+                <div class="bg-white p-8 rounded-lg shadow-lg border-2 border-blue-500 relative hover:shadow-xl transition duration-300">
+                    <div class="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 text-sm font-bold rounded-bl-lg">MOST POPULAR</div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Live Cohort</h3>
+                    <p class="text-gray-600 mb-6">Full immersive experience</p>
+                    <div class="mb-6">
+                        <span class="text-4xl font-bold text-gray-800">$299</span>
+                        <span class="text-gray-600">/one-time</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">All Self-Paced features</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Live daily instruction</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Small group projects</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Q&A with instructors</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Certificate of completion</span>
+                        </li>
+                    </ul>
+                    <a href="#register" class="block text-center bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition duration-300">Enroll Now</a>
+                </div>
+                
+                <!-- Premium Plan -->
+                <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">VIP Mentorship</h3>
+                    <p class="text-gray-600 mb-6">Personalized guidance</p>
+                    <div class="mb-6">
+                        <span class="text-4xl font-bold text-gray-800">$599</span>
+                        <span class="text-gray-600">/one-time</span>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">All Live Cohort features</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">1-on-1 mentorship sessions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Career coaching</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Project code reviews</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-2 mt-1"><i class="fas fa-check"></i></span>
+                            <span class="text-gray-700">Job search support</span>
+                        </li>
+                    </ul>
+                    <a href="#register" class="block text-center bg-gray-100 text-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-200 transition duration-300">Get VIP Access</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <h3 class="font-semibold text-gray-800">Do I need any prior experience in AI or programming?</h3>
+                        <span class="text-blue-600">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </button>
+                    <div class="px-6 pb-6 hidden">
+                        <p class="text-gray-600">No prior experience is required! Our internship is designed to take you from complete beginner to capable practitioner in just 5 days. We'll cover all the fundamentals you need to get started.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <h3 class="font-semibold text-gray-800">What's the daily time commitment?</h3>
+                        <span class="text-blue-600">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </button>
+                    <div class="px-6 pb-6 hidden">
+                        <p class="text-gray-600">The live cohort runs from 9am to 5pm each day with breaks for lunch and shorter breaks throughout. For self-paced learners, we recommend dedicating at least 6-8 hours per day to complete the material in 5 days.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <h3 class="font-semibold text-gray-800">What software/tools will I need?</h3>
+                        <span class="text-blue-600">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </button>
+                    <div class="px-6 pb-6 hidden">
+                        <p class="text-gray-600">You'll need a computer (Windows, Mac, or Linux) with internet access. We'll guide you through installing free, open-source tools like Python, Jupyter Notebooks, and popular AI libraries. No expensive software required!</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <h3 class="font-semibold text-gray-800">Will I get a certificate after completing the internship?</h3>
+                        <span class="text-blue-600">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </button>
+                    <div class="px-6 pb-6 hidden">
+                        <p class="text-gray-600">Yes! All participants who complete the Live Cohort or VIP Mentorship program will receive a certificate of completion that you can add to your LinkedIn profile or resume.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <h3 class="font-semibold text-gray-800">What if I can't attend all the live sessions?</h3>
+                        <span class="text-blue-600">
+                            <i class="fas fa-plus"></i>
+                        </span>
+                    </button>
+                    <div class="px-6 pb-6 hidden">
+                        <p class="text-gray-600">All live sessions are recorded and available to participants for 3 months after the internship ends. You can catch up on any content you miss at your convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+                                
+                            
+                    </html>
+
